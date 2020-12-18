@@ -25,7 +25,7 @@ $(window).on("load", function () {
   /* -----------------------------------
 				1. Preloader
 	----------------------------------- */
-  $("#preloader").delay(2000).addClass("loaded");
+  $("#preloader").delay(0).addClass("loaded");
 
   /* -----------------------------------
 			  2. Sound Setup
