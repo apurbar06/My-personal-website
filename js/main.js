@@ -42,8 +42,6 @@ $(window).on("load", function () {
     if ($("body").hasClass("audio-off")) {
       $("body").removeClass("audio-on");
     }
-    audio.load();
-    audio.play();
     $(".music-bg").on("click", function () {
       $("body").toggleClass("audio-on audio-off");
       if ($("body").hasClass("audio-off")) {
